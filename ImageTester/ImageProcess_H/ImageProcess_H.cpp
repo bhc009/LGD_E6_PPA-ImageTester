@@ -1962,12 +1962,12 @@ bool CImageProcess_H::insp_ppa_tracking( BYTE* pImage, int width, int height, in
 
 
 	// 확인용 > PPA 측정 결과 저장
-	savePpaResultImage( orgImage,									// 원본 영상
-						rgRoiHole,									// PPA를 측정한 구멍 영역
-						width/2 + dOldPpaX/maskInfo.dResolution,	// 이전 PPA 위치( X 영상 좌표 )
-						height/2 + dOldPpaY/maskInfo.dResolution,	// 이전 PPA 위치( Y 영상 좌표 )
-						m_strFilePath,								// 저장 시 위치
-						m_strFileName );							// 저장 시 이름
+// 	savePpaResultImage( orgImage,									// 원본 영상
+// 						rgRoiHole,									// PPA를 측정한 구멍 영역
+// 						width/2 + dOldPpaX/maskInfo.dResolution,	// 이전 PPA 위치( X 영상 좌표 )
+// 						height/2 + dOldPpaY/maskInfo.dResolution,	// 이전 PPA 위치( Y 영상 좌표 )
+// 						m_strFilePath,								// 저장 시 위치
+// 						m_strFileName );							// 저장 시 이름
 
 
 	return true;
